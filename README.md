@@ -70,6 +70,25 @@ This repository serves as the central hub for the Uber Microservices Architectur
 4. **Run Microservices**: Start each microservice as per their individual README instructions.
 5. **Kafka Setup**: Ensure Kafka server is up and running for asynchronous communication.
 
+## 📬 Postman Collections
+
+To facilitate testing of the API endpoints for each microservice, we have created separate Postman collections. You can download and import these collections into Postman to quickly test the APIs.
+
+### Download Postman Collections
+
+- [Location Service](https://github.com/prachi310/uber-microservices-project/blob/main/UberLocationService.postman_collection.json)
+- [Booking Service](https://github.com/prachi310/uber-microservices-project/blob/main/UberBookingService.postman_collection.json)
+- [Socket Service](https://github.com/prachi310/uber-microservices-project/blob/main/UberSocketServer.postman_collection.json)
+- [Review Service](https://github.com/prachi310/uber-microservices-project/blob/main/UberReviewService.postman_collection.json)
+- [Auth Service](https://github.com/prachi310/uber-microservices-project/blob/main/UberAuthService.postman_collection.json)
+
+### Importing Collections
+
+1. **Open Postman**: Download and install Postman from [Postman](https://www.postman.com/downloads/).
+2. **Import Collections**:
+   - Click on `File` -> `Import`.
+   - Select the downloaded Postman collection JSON files.
+3. **Run Requests**: Use the imported collections to test the endpoints.
 
 
 
