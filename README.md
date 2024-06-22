@@ -65,9 +65,11 @@ This repository serves as the central hub for the Uber Microservices Architectur
 ### Architecture Diagram
 ![Architecture Diagram](https://github.com/prachi310/uber-microservices-project/blob/main/uber%20project%20Architecture%20Diagram.drawio.png)
 
-##Results
+## Results
 ![EurekaService](https://github.com/prachi310/uber-microservices-project/blob/main/Eureka%20Result.png)
+
 ![BookingService](https://github.com/prachi310/uber-microservices-project/blob/main/Booking_service_driverRequest.png)
+
 ![BookingService](https://github.com/prachi310/uber-microservices-project/blob/main/Booking_service_driverReqID.png)
 
 ## 🔧 Setup and Running Instructions
