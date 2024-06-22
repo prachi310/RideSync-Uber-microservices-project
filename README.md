@@ -62,6 +62,9 @@ This repository serves as the central hub for the Uber Microservices Architectur
 - **API Communication:** Retrofit
 - **Others:** Flyway for DB migration, STOMP for sockets
 
+### Architecture Diagram
+![Architecture Diagram](https://github.com/prachi310/uber-microservices-project/blob/main/uber%20project%20Architecture%20Diagram.drawio.png)
+
 ## 🔧 Setup and Running Instructions
 
 1. **Clone Repositories**: Clone each microservice repository from GitHub.
