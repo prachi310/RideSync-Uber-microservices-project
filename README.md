@@ -76,7 +76,7 @@ This repository serves as the central hub for the Uber Microservices Architectur
 
 1. **Clone Repositories**: Clone each microservice repository from GitHub.
 2. **Set Up Eureka Server**: Start the Eureka server for service discovery.
-3. **Configure Databases**: Ensure Redis and PostgreSQL are set up and running.
+3. **Configure Databases**: Ensure Redis,MYSQL and kafka are set up and running.
 4. **Run Microservices**: Start each microservice as per their individual README instructions.
 5. **Kafka Setup**: Ensure Kafka server is up and running for asynchronous communication.
 
