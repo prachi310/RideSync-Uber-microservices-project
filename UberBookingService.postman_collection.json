@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "f8fe24aa-251d-431a-b04f-28ac25dd7761",
+		"name": "UberBookingService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24315482"
+	},
+	"item": [
+		{
+			"name": "create booking",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"passengerId\":3,\r\n    \"startLocation\":{\r\n         \"latitude\": 17.4319,\r\n         \"longitude\": 78.3805\r\n    },\r\n    \"endLocation\":{\r\n          \"latitude\": 18.4319,\r\n          \"longitude\": 78.3805\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/v1/booking",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"booking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update booking",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "server_url",
+			"value": "http://localhost:8000/api/v1"
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "784a5d73-3ddc-47e5-aa8e-a6a30e1c84ba",
+		"name": "UberSocketServer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24315482"
+	},
+	"item": [
+		{
+			"name": "get new ride request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"passengerId\":3,\r\n    \"driverIds\":[]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/socket/newRide",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"socket",
+						"newRide"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "socket",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3082/api/socket",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3082",
+					"path": [
+						"api",
+						"socket"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

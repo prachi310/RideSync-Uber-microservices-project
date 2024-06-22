@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "20f09e45-7fb7-4003-984e-c3a886af901e",
+		"name": "UberAuthService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24315482"
+	},
+	"item": [
+		{
+			"name": "passenger signIn",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"email\":\"A&B@.com\",\r\n\"password\":\"ABC123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/signIn/passenger",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"signIn",
+						"passenger"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Auth token validate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server_url}}/validate",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"validate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "passenger signUp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"prachi\",\r\n\"email\":\"prachi21@gmail.com\",\r\n\"phoneNumber\": \"12345\",\r\n\"password\":\"ABC123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_url}}/signUp/passenger",
+					"host": [
+						"{{server_url}}"
+					],
+					"path": [
+						"signUp",
+						"passenger"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "server_url",
+			"value": "localhost:7475/api/v1/auth",
+			"type": "string"
+		}
+	]
+}
