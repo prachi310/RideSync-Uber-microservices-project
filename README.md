@@ -1,4 +1,4 @@
-# 🚗 Uber Microservices Architecture
+# 🚗 RideSync/Uber Microservices Architecture
 
 This repository serves as the central hub for the Uber Microservices Architecture project, designed to showcase a robust and scalable ride-sharing application. Each microservice is built using Spring Boot and handles a specific functionality of the application.
 
